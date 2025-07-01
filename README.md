@@ -145,41 +145,4 @@ agent_outputs_raw: The raw output from each individual agent, useful for debuggi
 
 summary_message: A high-level summary of the analysis.
 
-Project Structure (Backend)
-backend/
-├── main.py                     # FastAPI entry point, orchestrates agents
-├── requirements.txt            # Python dependencies
-├── .env                        # Environment variables (DO NOT commit to Git!)
-├── adk_core/
-│   ├── __init__.py             # Initializes ADK system, registers agents
-│   ├── agents/                 # Directory for individual agent implementations
-│   │   ├── __init__.py         # Makes 'agents' a Python package
-│   │   ├── base_agent.py       # Abstract base class for all specialized agents
-│   │   ├── strategic_client_engagement_agent.py
-│   │   ├── site_intelligence_regulatory_compliance_agent.py
-│   │   ├── generative_architectural_design_agent.py
-│   │   ├── integrated_systems_engineering_agent.py
-│   │   ├── interior_experiential_design_agent.py
-│   │   ├── hyper_realistic_3d_digital_twin_agent.py
-│   │   ├── predictive_cost_supply_chain_agent.py
-│   │   ├── adaptive_project_management_robotics_orchestration_agent.py
-│   │   ├── proactive_risk_safety_management_agent.py
-│   │   ├── ai_driven_quality_assurance_control_agent.py
-│   │   ├── semantic_data_integration_ontology_agent.py
-│   │   ├── learning_adaptation_agent.py
-│   │   ├── human_ai_collaboration_explainability_agent.py
-│   │   ├── sustainability_green_building_agent.py
-│   │   ├── financial_investment_analysis_agent.py
-│   │   ├── legal_contract_management_agent.py
-│   │   ├── workforce_management_hr_agent.py
-│   │   ├── post_construction_facility_management_agent.py
-│   │   └── public_relations_stakeholder_communication_agent.py
-│   ├── services/               # Directory for external service wrappers (e.g., LLMs)
-│   │   ├── __init__.py
-│   │   └── gemini_service.py   # Wrapper for Gemini/Imagen API calls
-│   └── utils/                  # Directory for common utility functions
-│       ├── __init__.py
-│       └── common.py           # Utility functions (e.g., input parsing, output formatting)
-└── config/                     # Directory for application configuration
-    └── settings.py             # Configuration loader (reads from .env)
 
