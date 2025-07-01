@@ -32,7 +32,7 @@ Setup Instructions
 Follow these steps to get the backend up and running on your local machine.
 
 1. Clone the Repository
-git clone https://github.com/your-username/your-construction-ai.git
+git clone url
 cd your-construction-ai/backend
 
 2. Create and Activate a Python Virtual Environment
