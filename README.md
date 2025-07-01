@@ -1,6 +1,6 @@
 # Construction-Architect-Agent
 
-analysis. It leverages Google's Agent Development Kit (ADK) and Google Cloud's Vertex AI (Gemini and Imagen models) to provide comprehensive insights based on user input.
+This repository contains the backend for a sophisticated AI-powered multi-agent system designed to assist in construction project planning and analysis. It leverages Google's Agent Development Kit (ADK) and Google Cloud's Vertex AI (Gemini and Imagen models) to provide comprehensive insights based on user input.
 
 Features
 Multi-Agent Architecture: Utilizes 18 specialized AI agents, each focusing on a specific aspect of construction (e.g., Budget, Scheduling, Architectural Design, Risk Management, Sustainability).
@@ -182,3 +182,4 @@ backend/
 │       └── common.py           # Utility functions (e.g., input parsing, output formatting)
 └── config/                     # Directory for application configuration
     └── settings.py             # Configuration loader (reads from .env)
+
