@@ -1,8 +1,0 @@
-# This file lists all the Python dependencies for your FastAPI backend.
-# Ensure you install these in your virtual environment.
-fastapi[all]
-uvicorn
-google-adk
-google-cloud-aiplatform
-python-dotenv
-pydantic-settings
