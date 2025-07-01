@@ -147,15 +147,25 @@ summary_message: A high-level summary of the analysis.
 
 
 backend/
+
 ├── main.py                     # FastAPI entry point, orchestrates agents
+
 ├── requirements.txt            # Python dependencies
+
 ├── .env                        # Environment variables (DO NOT commit to Git!)
+
 ├── adk_core/
+
 │   ├── __init__.py             # Initializes ADK system, registers agents
+
 │   ├── agents/                 # Directory for individual agent implementations
+
 │   │   ├── __init__.py         # Makes 'agents' a Python package
+
 │   │   ├── base_agent.py       # Abstract base class for all specialized agents
+
 │   │   ├── strategic_client_engagement_agent.py
+
 │   │   ├── site_intelligence_regulatory_compliance_agent.py
 │   │   ├── generative_architectural_design_agent.py
 │   │   ├── integrated_systems_engineering_agent.py
